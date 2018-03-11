@@ -27,10 +27,10 @@ function startApp(){
 	function(err, res){
 		if (err) throw err;
 		console.log("------All Items for Sale------");
-		console.log("Item ID  |  Product  |  Price  ");
-		res.forEach(function(row){
-			console.log(row.item_id + "        |  " + row.product_name + "  | " + row.price);
-		});
+		console.table(res);
+		// res.forEach(function(row){
+		// 	console.log(row.item_id + "        |  " + row.product_name + "  | " + row.price);
+		// });
 	purchase();
 	});
 	
@@ -62,6 +62,7 @@ function purchase(){
 						if(res[i].item_id == answer.itemId){
 							stockQuantity = res[i].stock_quantity;
 							price = res[i].price;
+							item = res[i].product_name;
 						}
 					}
 
@@ -84,8 +85,8 @@ function purchase(){
 							],
 							function(error){
 								if (error) throw error;
-								console.log("Order Placed!  Total Price: " + totalPrice);
-								startApp();
+								console.log("Order Placed!  Total Price: $" + totalPrice + " for your order of " + answer.quantity + " " + item);
+								connection.end();
 							}
 						);
 					}
