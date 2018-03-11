@@ -5,25 +5,25 @@
 This project demonstrates inventory and purchasing abilities using the console and mySQL.
 
 1. Customer ordering Success
-(images/bamazonCustOrderSuccessConsole.png)
-(images/bamazonCustOrderSuccessDB.png)
+!(images/bamazonCustOrderSuccessConsole.png)
+!(images/bamazonCustOrderSuccessDB.png)
 
 2. Customer ordering fail
-(images/bamazonCustOrderFail.png)
+!(images/bamazonCustOrderFail.png)
 
 3. Manager View all Products
-(images/bamazonMgrViewProd.png)
+!(images/bamazonMgrViewProd.png)
 
 4. Manager View Low inventory
-(images/bamazonMgrLowInv.png)
+!(images/bamazonMgrLowInv.png)
 
 5. Manager Adds to Inventory
-(images/bamazonMgrAddInv.png)
-(images/bamazonMgrAddInvDB.png)
+!(images/bamazonMgrAddInv.png)
+!(images/bamazonMgrAddInvDB.png)
 
 6. Manager Adds new Product
-(images/bamazonMgrNewProd.png)
-(images/bamazonMgrNewProdDB.png)
+!(images/bamazonMgrNewProd.png)
+!(images/bamazonMgrNewProdDB.png)
 
 
 
