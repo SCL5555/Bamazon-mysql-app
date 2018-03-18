@@ -97,12 +97,3 @@ function purchase(){
 
 
 
-//display user with two messages:
-//1. ask them the ID of the product they would like to buy
-//2. ask them how many units they would like to buy
-
-//once order is placed, check to see if enough untis in stock to meet order.  If not, present message and prevent order from going through
-
-//if there is enough:
-//update qunatitiy in database
-//present user with total price
